@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : skin.xml
+    Created on : August 10, 2011, 12:48 AM
+    Author     : ahmadeldesoky
+    Description:
+        Purpose of the document follows.
+-->
+
+<skin>
+    <stylesheets>
+        <stylesheet>layout.css</stylesheet>
+        <stylesheet>text.css</stylesheet>
+        <stylesheet>form.css</stylesheet>
+    </stylesheets>
+</skin>

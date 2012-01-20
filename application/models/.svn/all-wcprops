@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/ades_baraka/!svn/ver/1/application/models
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/ades_baraka/!svn/ver/2/application/models/Client.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/ades_baraka/!svn/ver/1/application/models/User.php
+END
+Question.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/ades_baraka/!svn/ver/1/application/models/Question.php
+END

@@ -1,0 +1,11 @@
+<h2>
+    تسجيل دخول
+</h2>
+
+<?php echo $this->loginForm; ?>
+
+<h3>
+<?php echo $this->loginErrorMessage; ?>
+</h3>
+
+

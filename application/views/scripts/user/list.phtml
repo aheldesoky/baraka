@@ -1,0 +1,19 @@
+<h2>المستخدمين الحاليين</h2>
+
+<?php if($this->currentUsers != null) { ?>
+
+<table class='spreadsheet' cellpadding='0' cellspacing='0'>
+    <tr>
+        <th>خيارات</th>
+        <th>الاسم الاخير</th>
+        <th>الاسم الاول</th>
+        <th>اسم المستخدم</th>
+        <th>نوع المستخدم</th>
+    </tr>
+    <?php echo $this->partialLoop('partials/_user-row.phtml', $this->currentUsers); ?>
+</table>
+
+<?php }else{ ?>
+<p>لا يوجد مستخدمين حاليا فى النظام</p>
+<?php } ?>
+<p><a href='create/'>اضافة مستخدم جديد</a></p>

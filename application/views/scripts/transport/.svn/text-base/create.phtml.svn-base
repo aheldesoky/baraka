@@ -1,0 +1,15 @@
+<script type="text/javascript" src="<?= $this->baseUrl(); ?>/scripts/jquery.multi-open-accordion-1.5.2.min.js"></script>
+<script type="text/javascript" src="<?= $this->baseUrl(); ?>/scripts/jquery.multiselect.min.js"></script>
+<script type="text/javascript" src="<?= $this->baseUrl(); ?>/scripts/jquery.ui.datepicker.js"></script>
+<script type="text/javascript" src="<?= $this->baseUrl(); ?>/scripts/ui.spinner.min.js"></script> 
+
+<div>
+    أسم العميل : 
+    <?=$this->clientName; ?>
+</div>
+<br>
+<div><?=$this->transportForm; ?></div>
+
+<div id="multiOpenAccordion" class='appforms'>
+    
+</div>

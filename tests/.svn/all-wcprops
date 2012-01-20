@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/ades_baraka/!svn/ver/1/tests
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/ades_baraka/!svn/ver/1/tests/bootstrap.php
+END
+phpunit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/ades_baraka/!svn/ver/1/tests/phpunit.xml
+END

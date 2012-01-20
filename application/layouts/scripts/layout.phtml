@@ -1,0 +1,55 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<?php
+    echo '<?xml version="1.0" encoding="UTF-8" ?>';
+    echo $this->doctype();
+?>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="<?=$this->baseUrl();?>/js/jquery.js"></script>
+        <script type="text/javascript" src="<?=$this->baseUrl();?>/js/chrome.js"></script>
+        <script type="text/javascript" src="<?=$this->baseUrl();?>/js/menu.js"></script>
+        <?php
+            echo $this->headTitle();
+            echo $this->headScript();
+                // add a link to the site style sheet
+            $this->loadSkin($this->skin);
+            echo $this->headLink();
+        ?>
+    </head>
+    
+    <body>
+        <div id="pageWrapper">
+            <a href="/baraka/public/">
+                <div id="header">
+                    <img  id="logo"  src="<?=$this->baseUrl();?>/skins/blues/images/logo.png">
+                </div>
+            </a>
+            <div id="MainMenu">
+                <div id="tab">
+                    <ul>
+			<li><a href="<?=$this->baseUrl();?>/client/"><span>العملاء</span></a></li>
+			<li><a href="<?=$this->baseUrl();?>/transport/"><span>النوالين</span></a></li>
+                        <li><a href="<?=$this->baseUrl();?>/truck/"><span>الشاحنات</span></a></li>
+                        <li><a href="<?=$this->baseUrl();?>/driver/"><span>السائقين</span></a></li>
+                        <li><a href="<?=$this->baseUrl();?>/bank/"><span>حساب البنك</span></a></li>
+                        <li><a href="<?=$this->baseUrl();?>/user/"><span>المستخدمين</span></a></li>
+                        <li><a href="<?=$this->baseUrl();?>/service/"><span>خدمات</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="main">
+                <?php echo $this->layout()->content?>&nbsp;
+            </div>
+            <div id="footer">
+                <p><em>Copyright &COPY; YWC for Business Solutions 2011.</em></p>
+            </div>
+        </div>
+    </body>
+</html>

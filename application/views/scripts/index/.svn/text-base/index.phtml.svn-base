@@ -1,0 +1,17 @@
+<h2>Home</h2>
+<p>هذه هى الصفحه الرئيسيه</p>
+
+<h2>حسابى</h2>
+<?php if ($this->identity == null) { ?>
+    <p>لتسجيل الدخول
+        <a href='<?php echo $this->baseUrl();?>/auth/login'>اضغط هنا</a>
+    </p>
+<?php } else { ?>
+    <p>مرحبا بعودتك
+        <?php echo $this->identity->first_name; ?></p>
+    <p>لتسجيل الخروج 
+        <a href='<?php echo $this->baseUrl();?>/auth/logout'>اضغط هنا</a></p>
+<?php } ?>
+
+    
+    

@@ -1,0 +1,67 @@
+10
+
+dir
+1
+http://ades.unfuddle.com/svn/ades_baraka/application/views/scripts
+http://ades.unfuddle.com/svn/ades_baraka
+
+
+
+2011-11-06T01:43:53.729046Z
+1
+ades
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b0c84439-8b2e-4115-be04-1f895d1c80ca
+
+partials
+dir
+
+employee
+dir
+
+service
+dir
+
+auth
+dir
+
+index
+dir
+
+truck
+dir
+
+error
+dir
+
+driver
+dir
+
+bank
+dir
+
+transport
+dir
+
+client
+dir
+
+contacts
+dir
+
+user
+dir
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/ades_baraka/!svn/ver/1/application/views/scripts/auth
+END
+index.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ades_baraka/!svn/ver/1/application/views/scripts/auth/index.phtml
+END
+login.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ades_baraka/!svn/ver/1/application/views/scripts/auth/login.phtml
+END
+logout.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ades_baraka/!svn/ver/1/application/views/scripts/auth/logout.phtml
+END
